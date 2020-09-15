@@ -1,7 +1,8 @@
 !DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+<meta charset="utf-8">
+<title>Fans</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -19,13 +20,17 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #1abc9c;
+  background-image: url("aaaa.jpg");
   color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
+	
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
@@ -73,50 +78,86 @@ body {
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
+/* I will build the greatest sand castle in the galaxy. You've never SEEN a sand castle like the one I'm about to build, nay, you've never even thought about a sand castle this good. I'm the best sand castle builder you've ever had the privlage of being in the same room with. Kneel before my throne and realize, it too, is made of sand. Crafted by my own hands. */
+
+.lilText {
+  font-size: .9em;
+		
 }
-.img {
-  height: 160px;
-  width: 250px;
-  padding: 15px;
+.mainText {
+	background-color: whitesmoke;
+	font-size: 1em;
+	width: 50em;
+	float: left;
+	padding: 1.5em;
 }
 
-/* Main column */
+
+.frick {
+  height: 16.5em;
+  width: fill;
+  padding: .5em;
+	border: thin;
+	border-color: black;
+}
+
+.frickpic {
+	height: 15em;
+	width: 20em;
+	float: left;
+}
+	
+.shrek {
+	padding: 1em;
+	height: 15em;
+	width: .5em;
+	float: left;
+}
+	.crimeTime {
+		width: 30em;
+		float: left;
+	}
+	
+	.limeCrime {
+		height: 20em;
+		width: fill;
+		float: left;
+	}
+	
+	/* I will build the greatest sand castle in the galaxy. You've never SEEN a sand castle like the one I'm about to build, nay, you've never even thought about a sand castle this good. I'm the best sand castle builder you've ever had the privlage of being in the same room with. Kneel before my throne and realize, it too, is made of sand. Crafted by my own hands. */
+
 .main {
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: white;
   padding: 20px;
 }
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
 
-/* Fake image, just for this example */
 .fakeimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
 }
 
-/* Footer */
+
 .footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
-}
+	}
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row {
     flex-direction: column;
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;
@@ -128,8 +169,8 @@ body {
 <body>
 
 <div class="header">
-  <h1>My Website</h1>
-  <p>I made it... <b>mostly</b><p>
+  <h1>Game</h1>
+  <p>I played it... <b>mostly</b></p>
 </div>
 
 <div class="navbar">
@@ -140,24 +181,45 @@ body {
 </div>
   
   <div class="main">
-    <h2><b>GAME</b></h2>
-    <h5>I play them, I think about them, and now I'm writting about them. Quick! Call Dr. Phill! I'm probably addicted to them or something!</h5>
-    <div class="img">
-    <img src="ya mum">
-    </div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <h2><b>Yume Nikki</b></h2>
+    <p class="lilText">So basically, I'm gonna be reviewing a game here. You've probably already read the first review, but this time I'm goinng to be way worse at it so... enjoy I guess. This is a sureal horror/exploration game that was pretty infulential in that area. It spawned a lot of games that had similar vibes that were simply called "yume nikki" games most of the time, which isn't the most creative title but who cares.</p>
     <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-  </div>
-
-<div class="footer">
-  <h2>Footer</h2>
-</div>
+	  
+	  <div class="limeCrime">
+    <h3>How it works/How you play it</h3>
+	  <div class="frick">
+		<img src="Screenshot (367).png" alt="heck" class="frickpic"/>
+		  <div class="shrek"></div>
+		  <div class="crimeTime">
+		  <p class="mainText">So basically, when you first get into the game you're just in a bedroom full of kinda interesting stuff I guess. Just standard regular bedroom stuff and you actually start playing by going to sleep where you end up on the patio. From there you walk back into your bedroom to find it exactly the same exept this time you can go outside to find <b>The Nexus</b>. Connected to the nexus are 12 central worlds that all lead to other worlds that are connected to each other. You could go through one door and dozens of worlds and find yourself back at some other main world connected to the nexus. In each of these worlds are items called "effects" they change your appearence and some grant abilties. For example the bike effect just puts you on a bike and lets you move faster. To beat the game you need to collect them all, but not in any particular order</p>
+		  </div>
+		  </div>
+	  </div>
+		  <div class="limeCrime">
+			 <h3>What is it?</h3>
+	  <div class="frick">
+		<img src="Screenshot (264).png" alt="heck" class="frickpic"/>
+		  <div class="shrek"></div>
+		  <div class="crimeTime">
+		  <p class="mainText">This game is about... well I'm not quite sure but that's the point. See, unlike most games, there's not actually any liner progresion or almost any progresion at all. The only thing that changes from the start of the game to the end is how many effects you have and they aren't usually needed to move through the worlds. Yume Nikki is actually an exploration game centered around surealism that is always sureal, but sometimes also horrifiying. It's not focused on horror, but it's not afraid to put you in places that are rather... disturbing as you can see in the image I provided</p>
+		  </div>
+		  </div>
+	</div>
+		
+	  <div class="limeCrime">
+			 <h3>Why do people like it?</h3>
+	  <div class="frick">
+		<img src="Screenshot (292).png" alt="heck" class="frickpic"/>
+		  <div class="shrek"></div>
+		  <div class="crimeTime">
+		  <p class="mainText">So, there's of course people who like horror (myself included) but that's actually not all there is to it. There's also the sureal part. By that I mean that not all of it's sureal stuff is horror related. There's actually quite a few places in the game loved by the community for their beauty rather than their horror. So the game could make you say, "what the hell!" or it can make you go, "Oh my, that's great" within like 30 seconds of each other. The best example of that I saw while playing was The Sky Garden (that's where the picture is from). A place that's really nice looking connected to basically hell through a shed filled with white flowers. you get there by going up some random stairs in a desert wasteland and it's just a whirlwind of "what" to go through such different places within 2 feet of each other and that's great.</p>
+		  </div>
+		  </div>
+	</div>
+	  
+	  </div>
+	
 
 </body>
 </html>
+
